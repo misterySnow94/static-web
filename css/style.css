@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    background: #181c24;
+    color: #e0e0e0;
+}
+
+/* Estilos del navbar */
+.navbar, .navbar .dropdown-menu {
+    background: #232837 !important;
+}
+
+.navbar .navbar-brand, .navbar .nav-link, .navbar .dropdown-item {
+    color: #e0e0e0 !important;
+}
+
+.navbar .nav-link.active {
+    color: #6bc5ff !important;
+}
+
+.navbar .dropdown-menu {
+    border: none;
+}
+
+/* Estilos de tarjetas */
+.card-header.bg-primary {
+    background: #1a2238 !important;
+    color: #6bc5ff !important;
+}
+
+.card-header.bg-info {
+    background: #283655 !important;
+    color: #6bc5ff !important;
+}
+
+.card.shadow-lg, .card.shadow {
+    background: #232837;
+    border-radius: 1rem;
+    border: 1px solid #2c3142;
+}
+
+.card-body.bg-light, .card-body.bg-white {
+    background: #232837 !important;
+    color: #e0e0e0;
+}
+
+/* Estilos de lista */
+.list-group-item {
+    background: #232837;
+    color: #e0e0e0;
+    border: none;
+}
+
+.list-group-item:not(:last-child) {
+    border-bottom: 1px solid #2c3142;
+}
+
+/* Estilos de texto */
+.lead, h3, h4, .mb-2, strong {
+    color: #6bc5ff !important;
+}
+
+/* Estilos del carrusel */
+.carousel-inner {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 24px 0 #000a;
+}
+
+/* Estilos de botones */
+.btn-outline-success {
+    border-color: #6bc5ff;
+    color: #6bc5ff;
+}
+
+.btn-outline-success:hover {
+    background: #6bc5ff;
+    color: #232837;
+}
+
+/* Estilos específicos de la calculadora */
+.calculadora {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.calculadora .card {
+    border-radius: 15px;
+    border: none;
+}
+
+.calculadora .card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 20px;
+}
+
+.calculadora .result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #667eea;
+}
+
+/* Estilos específicos de parcial_final.html */
+h2, .alert-success strong, .btn-outline-primary {
+    color: #6bc5ff !important;
+}
+
+.alert-success {
+    background: #232837;
+    border: 1px solid #2c3142;
+    color: #e0e0e0;
+}
+
+.btn-outline-primary {
+    border-color: #6bc5ff;
+    color: #6bc5ff;
+}
+
+.btn-outline-primary:hover {
+    background: #6bc5ff;
+    color: #232837;
+}
+
+/* Estilos del conejo ASCII */
+.bunny-ascii {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #6bc5ff;
+    background: #232837;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #2c3142;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    min-width: 120px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.bunny-ascii:hover {
+    transform: scale(1.1);
+}
+
+.bunny-message {
+    min-height: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff3333;
+    font-size: 1.3rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bunny-message.show {
+    opacity: 1;
+}
+
+#bunnyContainer {
+    padding: 5px;
+    margin-bottom: 2rem;
+}

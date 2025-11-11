@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo secreto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-4">
+        <!-- Cabecera de la pagina web -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+                    <img src="./img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Juan Pablo Florez Caicedo
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Pagina Principal</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ejercicios importantes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./calculadora.html">Calculadora</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Parcial Final</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin de la cabecera de la pagina web -->
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8">
+                <div class="card shadow-lg border-primary">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h2 class="mb-0">¡Ups! Has encontrado un archivo secreto 😏</h2>
+                    </div>
+                    <div class="card-body bg-light">
+                        <div class="text-center mb-4">
+                            <img src="./img/payaso.jpg" alt="Payaso gracioso" class="img-fluid border border-3 border-danger shadow" style="width: 180px; height: 180px; object-fit: cover; background: #fff;">
+                            <div class="fw-bold mt-2 text-danger" style="font-size: 1.2rem;">¡Modo payaso activado!</div>
+                        </div>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">🔒 Contenido sensible</li>
+                            <li class="list-group-item">🔒 Más contenido sensible</li>
+                            <li class="list-group-item">🔒 Contenido extremadamente sensible</li>
+                            <li class="list-group-item">🔒 Contenido ultra sensible</li>
+                            <li class="list-group-item">🔒 Contenido hiper sensible</li>
+                            <li class="list-group-item">🔒 Contenido extremadamente hiper sensible</li>
+                            <li class="list-group-item">🔒 Contenido ultra hiper sensible</li>
+                            <li class="list-group-item">🔒 Contenido hiper ultra sensible</li>
+                        </ul>
+                        <div class="alert alert-success text-center" role="alert">
+                            <strong>¡Felicidades!</strong> Me alegra que hayas llegado hasta aquí 😄<br>
+                            <span class="text-muted"> <p class="text-white">Pero recuerda, algunos secretos es mejor no revelarlos...</p> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
